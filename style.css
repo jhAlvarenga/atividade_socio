@@ -1,0 +1,92 @@
+
+        body {
+            font-family: 'Droid Serif', serif;
+            color: #2f2f2f;
+            background-color: #f7f5f1;
+        }
+
+         #logo  {
+            font-family: 'Droid Serif', serif !important;
+            background-color: #f7f5f1!important;
+            line-height: 100px!important;
+            text-align: center!important;
+            color: black!important;
+            font-size:70px!important;
+            text-decoration: none;
+        }
+
+        header {
+
+            line-height: 100px;
+            text-align: center;
+            background-color: #f7f5f1;
+            color: black;
+            font-size:70px;
+ 
+        }
+
+        section {
+            column-count: 5;
+            column-gap: 20px;
+            column-rule: 2px dotted black;
+            column-width: 150px;
+            height: 610px;
+            margin: 0 0 10px 10px;
+        }
+
+        h3 {
+            font-family: Arial;
+            color: black;
+            border-bottom: 1px solid #2f2f2f;
+            border-top: 1px solid #2f2f2f;
+            background-color: rgba(219, 191, 150, 0.473);
+        }
+
+        footer {
+            font-family: Arial;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .subhead {
+            text-transform: uppercase;
+            border-bottom: 2px solid #2f2f2f;
+            border-top: 2px solid #2f2f2f;
+            padding: 12px 0 12px 0;
+            text-align: center;
+        }
+
+        marquee {
+            font-size: 50px;
+        }
+
+
+        a:hover {
+            color: gray;
+        }
+        /* Artigo */
+          
+          .banner1 .container {
+            /* border: 3px solid green; */
+            height: 500px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            
+          }
+          
+          .banner1 p {
+            /* border: 3px solid cyan; */
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            width: 280px;
+            font-size: 30px;
+            margin-left: 350px;
+            text-shadow: 2px 2px 4px #000000;
+          }
+          
+          .banner1 span {
+            font-weight: 800;
+          }
